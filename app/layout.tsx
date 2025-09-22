@@ -1,5 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import {Assistant} from 'next/font/google'
+
+
+const assistantFont = Assistant({
+  subsets: ['latin'],
+  weight: ['200','300','400','500','600','700','800'],
+  display: 'swap'
+  
+})
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` antialiased`}
+        className={`${assistantFont.className} antialiased`}
       >
         {children}
       </body>
