@@ -1,9 +1,12 @@
 {
   "app": {
-    "[project]/app/(root)/auth/login/page": [
+    "[project]/src/app/(root)/auth/login/page": [
       "static/media/1a072933b891bea6-s.p.5b1e0e00.woff2"
     ],
-    "[project]/app/page": [
+    "[project]/src/app/(root)/auth/register/page": [
+      "static/media/1a072933b891bea6-s.p.5b1e0e00.woff2"
+    ],
+    "[project]/src/app/page": [
       "static/media/1a072933b891bea6-s.p.5b1e0e00.woff2"
     ]
   },

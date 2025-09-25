@@ -470,6 +470,22 @@
     container: card-header / inline-size;
   }
 
+  .absolute {
+    position: absolute;
+  }
+
+  .relative {
+    position: relative;
+  }
+
+  .top-8 {
+    top: calc(var(--spacing) * 8);
+  }
+
+  .right-1\.5 {
+    right: calc(var(--spacing) * 1.5);
+  }
+
   .col-start-2 {
     grid-column-start: 2;
   }
@@ -480,6 +496,14 @@
 
   .row-start-1 {
     grid-row-start: 1;
+  }
+
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
+
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
   }
 
   .mr-2 {
@@ -531,10 +555,6 @@
     width: 400px;
   }
 
-  .w-\[450px\] {
-    width: 450px;
-  }
-
   .w-full {
     width: 100%;
   }
@@ -577,6 +597,10 @@
 
   .justify-center {
     justify-content: center;
+  }
+
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
   }
 
   .gap-1\.5 {
@@ -739,6 +763,11 @@
 
   .text-white {
     color: var(--color-white);
+  }
+
+  .underline {
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
   }
 
   .underline-offset-4 {
